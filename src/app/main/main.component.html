@@ -1,0 +1,17 @@
+<div class="title">Cà phê tại nhà</div>
+<div class="product">
+    <div class="box">
+        <div class="row" *ngFor="let item of itemList">
+            <div class="el-wrapper">
+                <div class="box-up">
+                    <img class="img" [src]="item.imgSrc" alt="" />
+                        <div class="p-name">Tên sản phẩm: {{ item.name }}</div>
+                    <div class="price">Giá: {{ item.price }}000đ</div>
+                <div class="p-company">Mô tả: {{ item.description }}</div>
+          
+                    <button id="btn_del" (click)="delete(item.id)">Delete</button>
+                
+            </div>
+        </div>
+    </div>
+</div>

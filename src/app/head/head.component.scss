@@ -1,0 +1,28 @@
+
+.mat-toolbar {
+    background-color: bisque;
+}
+#head {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+#head2 {
+    display: flex;
+    background-color: bisque;
+    img{
+        width: 200px;
+        padding-left: 20px;
+    }
+    .button{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+#dialog:hover {
+    cursor: pointer;
+}
+
