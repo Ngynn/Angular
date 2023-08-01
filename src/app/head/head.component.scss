@@ -26,3 +26,27 @@
     cursor: pointer;
 }
 
+button {
+    margin: 15px;
+    justify-content: center;
+}
+
+
+.form-group {
+margin: 10px;
+}
+
+#dialogApp {
+    width: 20%;
+    height: 60%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-group > input {
+    justify-content: right;
+}
